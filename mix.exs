@@ -7,7 +7,9 @@ defmodule HedwigApiAi.Mixfile do
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps()]
+     deps: deps(),
+     package: package(),
+     description: "Bringing NLU to hedwig with a little help from @api_ai"]
   end
 
   # Configuration for the OTP application
@@ -31,6 +33,16 @@ defmodule HedwigApiAi.Mixfile do
     [
       {:ex_api_ai, "~> 0.1"},
       {:hedwig, github: "hedwig-im/hedwig"}
+    ]
+  end
+
+  defp package do
+    [
+      maintainers: ["Erik Nilsen"],
+      licenses: ["MIT"],
+      links: %{
+        "GitHub" => "https://github.com/enilsen16/hedwig_api_ai",
+      }
     ]
   end
 end
