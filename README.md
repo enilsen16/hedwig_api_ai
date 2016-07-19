@@ -1,6 +1,6 @@
 # HedwigApiAi
 
-**TODO: Add description**
+**Work in progress**
 
 ## Installation
 
@@ -24,4 +24,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
 If [published on HexDocs](https://hex.pm/docs/tasks#hex_docs), the docs can
 be found at [https://hexdocs.pm/hedwig_api_ai](https://hexdocs.pm/hedwig_api_ai)
-
