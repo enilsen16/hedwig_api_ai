@@ -1,5 +1,5 @@
 %{"certifi": {:hex, :certifi, "0.4.0", "a7966efb868b179023618d29a407548f70c52466bf1849b9e8ebd0e34b7ea11f", [:rebar3], []},
-  "ex_api_ai": {:hex, :ex_api_ai, "0.1.0", "96603618d767a28901be64259d2d4746db415874d2430aec9dcd5f3dc0d97e2b", [:mix], [{:poison, "~> 2.0", [hex: :poison, optional: false]}, {:httpoison, "~> 0.9.0", [hex: :httpoison, optional: false]}]},
+  "ex_api_ai": {:git, "https://github.com/enilsen16/ex_api_ai.git", "80de7f8f9e9a64f9c6ff7589612b8d44299d617c", []},
   "gproc": {:hex, :gproc, "0.5.0", "2df2d886f8f8a7b81a4b04aa17972b5965bbc5bf0100ea6d8e8ac6a0e7389afe", [:rebar], []},
   "hackney": {:hex, :hackney, "1.6.1", "ddd22d42db2b50e6a155439c8811b8f6df61a4395de10509714ad2751c6da817", [:rebar3], [{:ssl_verify_fun, "1.1.0", [hex: :ssl_verify_fun, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:metrics, "1.0.1", [hex: :metrics, optional: false]}, {:idna, "1.2.0", [hex: :idna, optional: false]}, {:certifi, "0.4.0", [hex: :certifi, optional: false]}]},
   "hedwig": {:git, "https://github.com/hedwig-im/hedwig.git", "b02b9fdaf921d20ac3e3586ce2454773c9f84e4a", []},

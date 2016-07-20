@@ -31,7 +31,7 @@ defmodule HedwigApiAi.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:ex_api_ai, "~> 0.1"},
+      {:ex_api_ai, github: "enilsen16/ex_api_ai"},
       {:hedwig, github: "hedwig-im/hedwig"}
     ]
   end

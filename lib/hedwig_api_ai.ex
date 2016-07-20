@@ -9,12 +9,16 @@ defmodule HedwigApiAi do
     # Define workers and child supervisors to be supervised
     children = [
       # Starts a worker by calling: HedwigApiAi.Worker.start_link(arg1, arg2, arg3)
-      # worker(HedwigApiAi.Worker, [arg1, arg2, arg3]),
+      worker(HedwigApiAi.Call, []),
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: HedwigApiAi.Supervisor]
     Supervisor.start_link(children, opts)
+  end
+
+  def query(server, message) do
+    GenServer.call server, {:query, message}
   end
 end
