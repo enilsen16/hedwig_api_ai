@@ -1,6 +1,6 @@
 # HedwigApiAi
 
-**Work in progress**
+**Depricated as there is no need for a middleware adapter now**
 
 ## Installation
 
